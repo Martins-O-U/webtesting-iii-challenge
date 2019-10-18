@@ -14,7 +14,6 @@ class Dashboard extends React.Component {
 
     return (
       <>
-      <h2>Just to test the libraries</h2>
         <Display locked={locked} closed={closed} />
         <Controls
           locked={locked}
